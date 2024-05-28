@@ -11,15 +11,11 @@ export const navLinks = [
   },
   {
     label: "Atuação",
-    url: "/atuação",
+    url: "/atuacao",
   },
   {
     label: "Notícias",
-    url: "notícias",
-  },
-  {
-    label: "Contato",
-    url: "/contato",
+    url: "noticias",
   },
 ];
 export const skills = [
