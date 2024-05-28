@@ -12,7 +12,17 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "imagem-fundo": "url('/Marília-Completa.png')"
       },
+      colors: {
+        brown: "#1E1E1E",
+        golden: "#DBB681",
+        jfblue: "#0012E3",
+      },
+      fontFamily: {
+        'be-vietnam-pro': ['Be Vietnam Pro', 'sans-serif'],
+        'open-sans': ['Open Sans', 'sans-serif'],
+      }
     },
   },
   plugins: [],
