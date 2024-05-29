@@ -50,7 +50,7 @@ export const MobileMenu = () => {
                             </li>
                         ))}
                     </ul>
-                    <Link onClick={handleNavLinkMenu} href={"/contato"} className="flex items-center gap-2 text-xl text-slate-50 hover:text-slate-300 font-semibold bg-amber-600 hover:bg-amber-700 border border-amber-600 hover:border-amber-700 rounded-sm py-1 px-4">
+                    <Link onClick={handleNavLinkMenu} href={"/contact"} className="flex items-center gap-2 text-xl text-slate-50 hover:text-slate-300 font-semibold bg-amber-600 hover:bg-amber-700 border border-amber-600 hover:border-amber-700 rounded-sm py-1 px-4">
                         <CircleUserRound />
                         Contato
                     </Link>
