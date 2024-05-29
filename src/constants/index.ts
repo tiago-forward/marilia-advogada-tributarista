@@ -7,15 +7,15 @@ export const navLinks = [
   },
   {
     label: "Sobre",
-    url: "/sobre",
+    url: "/about",
   },
   {
     label: "Atuação",
-    url: "/atuacao",
+    url: "/acting",
   },
   {
     label: "Notícias",
-    url: "noticias",
+    url: "news",
   },
 ];
 export const skills = [
