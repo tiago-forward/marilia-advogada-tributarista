@@ -1,11 +1,12 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { CircleUserRound } from "lucide-react";
 
 import Link from "next/link";
 
-import { navLinks } from "@/constants";
-import { CircleUserRound } from "lucide-react";
+import { navLinks, socialLinks } from "@/constants";
+import { MobileMenu } from "./MobileMenu";
 
 export const Header = () => {
     const [effectScroll, setEffectScroll] = useState<boolean>(false)
@@ -26,13 +27,13 @@ export const Header = () => {
         <header
             className={
                 effectScroll
-                    ? "z-50 fixed h-14 w-full flex flex-row items-center justify-center transition-colors duration-500 backdrop-blur-sm bg-opacity-80 bg-black text-white shadow-sm shadow-black"
-                    : "z-50 fixed h-14 w-full flex flex-row items-center justify-center transition-colors duration-500 bg-transparent text-white shadow-sm shadow-black"
+                    ? "z-50 fixed h-14 w-full flex flex-row items-center justify-between lg:justify-center transition-colors duration-500 backdrop-blur-sm bg-opacity-80 bg-black text-white shadow-sm shadow-black"
+                    : "z-50 fixed h-14 w-full flex flex-row items-center justify-between lg:justify-center transition-colors duration-500 bg-transparent text-white shadow-sm shadow-black"
             }>
             <Link href={"/"}>
-                <h5 className="text-xl text-purple font-semibold text-amber-700">Marília Tributária</h5>
+                <h5 className="text-sm lg:text-xl text-purple font-semibold text-amber-700">Marília Tributarista</h5>
             </Link>
-            <nav className="max-w-6xl flex flex-1 items-center justify-center">
+            <nav className="hidden max-w-6xl lg:flex lg:flex-1 lg:items-center lg:justify-center gap-8">
                 <ul className="flex items-center gap-8">
                     {navLinks.map((link, index) => (
                         <li key={index} className="duration-200 hover:text-amber-600">
@@ -40,11 +41,23 @@ export const Header = () => {
                         </li>
                     ))}
                 </ul>
+                <Link href={"/contato"} className="flex items-center gap-2 text-xl text-slate-50 hover:text-slate-300 font-semibold bg-amber-600 hover:bg-amber-700 border border-amber-600 hover:border-amber-700 rounded-sm py-1 px-4">
+                    <CircleUserRound />
+                    Contato
+                </Link>
             </nav>
-            <Link href={"/contato"} className="flex items-center gap-2 text-xl text-slate-50 hover:text-slate-300 font-semibold bg-amber-600 hover:bg-amber-700 border border-amber-600 hover:border-amber-700 rounded-sm py-1 px-4">
-                <CircleUserRound />
-                Contato
-            </Link>
+            <nav className="hidden lg:flex">
+                <ul className="flex items-center justify-center gap-2">
+                    {socialLinks.map((link) => (
+                        <li key={link.id} className="duration-200 hover:text-amber-600">
+                            <Link href={link.url} target="_blank">
+                                {link.icon && <link.icon />}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
+            <MobileMenu />
         </header>
     )
 }
