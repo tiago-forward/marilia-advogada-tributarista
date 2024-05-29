@@ -356,7 +356,7 @@ export const socialLinks = [
     id: 2,
     label: "Instagram",
     icon: Instagram,
-    url: "#",
+    url: "https://www.instagram.com/adv.marilia_/",
   },
 ];
 export const contactDetails = [
