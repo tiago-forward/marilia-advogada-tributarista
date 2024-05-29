@@ -8,7 +8,7 @@ import Link from "next/link"
 import { navLinks, socialLinks } from "@/constants"
 
 export const MobileMenu = () => {
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
 
     const handleToggleMenu = () => {
         setIsOpen(!isOpen)

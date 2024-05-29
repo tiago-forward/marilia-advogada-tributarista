@@ -16,8 +16,6 @@ const config: Config = {
       },
       colors: {
         brown: "#1E1E1E",
-        golden: "#DBB681",
-        jfblue: "#0012E3",
       },
       fontFamily: {
         'be-vietnam-pro': ['Be Vietnam Pro', 'sans-serif'],
