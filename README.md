@@ -13,7 +13,7 @@
       <!-- * [Projetos](#projetos) -->
       * [Rodapé](#rodapé)
    * [Tecnologias](#tecnologias)
-   <!-- * [Acessando o site](#acessando-o-site) -->
+   * [Acessando o site](#acessando-o-site)
 
 <!-- ## Sobre -->
 
@@ -52,3 +52,7 @@ Irei utilizar o NextJS para um melhor desempenho da minha aplicação, sigo estu
 <li>NextJS</li>
 <li>GIT BASH</li>
 </ul>
+
+## Acessando o site
+
+Clique no link abaixo para acessar o site em desenvolvimento: <a href="https://marilia-advogada-tributarista.vercel.app/" target="_blank">Projeto Pessoal | Marília Advogada Tributarista</a>
