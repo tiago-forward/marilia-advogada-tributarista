@@ -43,16 +43,16 @@ export const MobileMenu = () => {
                 </div>
 
                 <nav className="flex flex-col flex-1 items-end justify-center gap-8 pr-4">
-                    <ul className="flex flex-col items-center gap-8">
+                    <ul className="flex flex-col items-end gap-8">
                         {navLinks.map((link, index) => (
                             <li onClick={handleNavLinkMenu} key={index} className="duration-200 hover:text-amber-600">
                                 <Link href={link.url}>{link.label}</Link>
                             </li>
                         ))}
                     </ul>
-                    <Link onClick={handleNavLinkMenu} href={"/contact"} className="flex items-center gap-2 text-md text-slate-50 hover:text-slate-300 font-semibold bg-amber-600 hover:bg-amber-700 border border-amber-600 hover:border-amber-700 rounded-sm py-1 px-2">
+                    {/* <Link onClick={handleNavLinkMenu} href={"/contact"} className="flex items-center gap-2 text-md text-slate-50 hover:text-slate-300 font-semibold bg-amber-600 hover:bg-amber-700 border border-amber-600 hover:border-amber-700 rounded-sm py-1 px-2">
                         Fale conosco
-                    </Link>
+                    </Link> */}
                     <ul className="flex items-center justify-center gap-2">
                         {socialLinks.map((link) => (
                             <li key={link.id} className="duration-200 hover:text-amber-600">

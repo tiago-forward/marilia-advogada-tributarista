@@ -2,19 +2,23 @@ import { Linkedin, Mail, MapPin, Phone, Instagram, Facebook, Twitter } from "luc
 
 export const navLinks = [
   {
-    label: "Home",
+    label: "HOME",
     url: "/",
   },
   {
-    label: "Sobre",
+    label: "SOBRE",
     url: "/about",
   },
   {
-    label: "Atuação",
+    label: "ATUAÇÃO",
     url: "/acting",
   },
   {
-    label: "Notícias",
+    label: "NOTÍCIAS",
+    url: "news",
+  },
+  {
+    label: "FALE CONOSCO",
     url: "news",
   },
 ];
