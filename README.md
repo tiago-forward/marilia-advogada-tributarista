@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Pessoal | Marília Advogada Tributarista
 
-## Getting Started
+## Tabela do Conteudos
 
-First, run the development server:
+   * [Sobre](#sobre)
+   * [Apresentação do portfólio](#apresentação)
+      * [Cabeçalho](#cabeçalho)
+      <!-- * [Perfil](#perfil) -->
+      * [Sobre Mim](#sobre-mim)
+      <!-- * [Habilidades](#habilidades) -->
+      <!-- * [Projetos](#projetos) -->
+      * [Rodapé](#rodapé)
+   * [Versão Mobile e Modo Dark](#versão-mobile-e-modo-dark)
+   * [Objetivo](#objetivo)
+   * [Tecnologias](#tecnologias)
+   <!-- * [Acessando o site](#acessando-o-site) -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Sobre
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Apresentação
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ### Cabeçalho
+<!-- <img src="src/gifs/gifs-para-o-github/cabeçalho.gif" alt="Gif da versão mobile e modo dark"> -->
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> Meu cabeçalho é composto por uma logo criada por mim mesmo, meu menu de habilidades ao ser clicado, direciona de forma suave para cada sessão do meu portfolio, também foi adicionado um botão para o modo dark, foi acrescentado outro botão para música, podendo tornar a experiência de navegação mais confortavél e agradavél, por último ao ser clicado nesse botão o nome da música acima terá uma animação de movimentação sutíl.
 
-## Learn More
+- ### Sobre mim
+<!-- <img src="src/gifs/gifs-para-o-github/sobre-mim.gif" alt="Gif do sobre-mim"> -->
 
-To learn more about Next.js, take a look at the following resources:
+> Aqui temos uma breve apresentação sobre mim sem nenhum efeito.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ### Rodapé
+<!-- <img src="src/gifs/gifs-para-o-github/rodapé.gif" alt="Gif do rodapé"> -->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> No meu rodapé, estou deixando mais alguns pequenos parágrafos, sugerindo para entrar em contato, um formulário para envio de observações e feedbacks e a descrição de Copyright ©.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ### Versão Mobile e Modo Dark
+<!-- <img src="src/gifs/gifs-para-o-github/versão-mobile-e-modo-dark.gif" alt="Gif do cabeçalho"> -->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> Tudo foi pensado de forma responsiva, para que se encaixe em todas as versões de dispositivos, como celulares, tablets, monitores e TVs.<br>O modo dark foi criado para que o usuário pudesse navegar no site de forma mais suave, sem muita claridade.
+
+##
+
+## Objetivo
+
+Desenvolver um site na qual será publicado na web, para uma Advogada Tributarista.
+Durante o desenvolvimente, irei utilizar o NextJS para melhor desempenho da minha aplicação
+
+
+ , Com base nos conceitos adquiridos no curso Dev Quest, meu objetivo nesse meu primeiro projeto era colocar em prática todo meu conhecimento adquirido e poder está vencendo o desafio sugerido do curso com premiações aos vencedores, com intuito de que pudéssemos avançar ainda mais nosso conhecimento sendo mais incentivados. 
+
+## Tecnologias
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>GIT BASH</li>
+</ul>
