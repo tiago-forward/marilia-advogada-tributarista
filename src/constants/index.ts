@@ -10,7 +10,7 @@ export const navLinks = [
     url: "/about",
   },
   {
-    label: "ATUAÇÃO",
+    label: "SERVIÇOS",
     url: "/acting",
   },
   {
