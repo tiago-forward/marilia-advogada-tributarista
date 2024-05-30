@@ -4,7 +4,7 @@ import { socialLinks } from "@/constants"
 
 export const Footer = () => {
     return (
-        <footer className="h-40 w-full flex flex-col items-center justify-center transition-colors duration-500 bg-black text-white gap-4">
+        <footer className="h-40 w-full flex flex-col items-center justify-center transition-colors duration-500 bg-black text-white gap-4 border-t border-zinc-900 bg-black">
             <div className="flex flex-col items-center">
                 <p className="text-sm text-center">Todos os Direitos Reservados © 2024</p>
                 <span className="text-sm text-amber-600 font-medium">Marília de Souza</span>
