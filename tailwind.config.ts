@@ -19,7 +19,9 @@ const config: Config = {
       },
       fontFamily: {
         'be-vietnam-pro': ['Be Vietnam Pro', 'sans-serif'],
-        'open-sans': ['Open Sans', 'sans-serif'],
+        'oswald': ['Oswald', 'sans-serif'],
+        'roboto-slab': ['Roboto Slab', 'serif'],
+        'cinzel': ['Cinzel', 'serif'],
       }
     },
   },

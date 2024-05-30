@@ -21,7 +21,7 @@ export const Footer = () => {
                 </ul>
             </nav>
             <div>
-                <p className="text-xs text-center">Desenvolvido por <span className="text-blue-700 font-bold"><a href="https://www.linkedin.com/in/tiago-lacerda-devfrontend/" target="_blank" className="hover:underline">TiagoForward</a></span></p>
+                <p className="text-xs text-center">Desenvolvido por <span className="text-blue-700 font-bold"><a href="https://www.linkedin.com/in/tiago-lacerda-devfrontend/" target="_blank" className="hover:underline font-cinzel">TiagoForward</a></span></p>
             </div>
         </footer>
     )
