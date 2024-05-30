@@ -12,7 +12,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-          "imagem-fundo": "url('/Marília-Completa.png')"
+          "imagem-fundo": "url('/restaurante-obscura-com-piso-de-madeira.jpg')"
       },
       colors: {
         brown: "#1E1E1E",
