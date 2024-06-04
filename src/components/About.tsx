@@ -1,11 +1,12 @@
 import MaríliaPerfil from '../../public/Marília-Completa.png'
 
 import Image from 'next/image'
+import { SectionHeading } from './SectionHeading'
 
 export const About = () => {
     return (
         <section className="w-full flex flex-col items-center justify-center  max-w-screen-xl m-auto">
-            <h2 className='text-center pt-6 lg:pb-6 text-2xl lg:text-4xl font-oswald tracking-wide'>Sobre mim</h2>
+            <SectionHeading title='Sobre mim' />
             <div className="flex flex-col items-center justify-center gap-10 md:flex-row py-6">
                 <div className="flex flex-col justify-center py-6 lg:max-w-2xl">
                     <h3 className='text-lg lg:text-2xl text-red-600 font-bold pb-4 font-sans'>Marília de Souza</h3>
