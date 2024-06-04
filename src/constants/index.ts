@@ -1,5 +1,8 @@
 import { Linkedin, Mail, MapPin, Phone, Instagram, Facebook, Twitter } from "lucide-react";
 
+import Consultoria from "../../public/images/consultoria.jpg"
+import Planejamento from "../../public/images/office-scene-close-up.jpg"
+
 export const navLinks = [
   {
     label: "HOME",
@@ -22,48 +25,41 @@ export const navLinks = [
     url: "news",
   },
 ];
-export const skills = [
+export const services = [
   {
     id: 1,
-    name: "Front-end Development",
+    name: "Consultoria Tributária",
     description:
-      "Proficiency in coding the visual aspects of websites using HTML, CSS, and JavaScript to ensure a seamless and attractive user interface.",
-    icon: "/icons/service-1.svg",
+      "Oferecemos consultoria personalizada para ajudar empresas e indivíduos a entenderem e cumpram suas obrigações fiscais, otimizando impostos pagos e evitando penalidades.",
+    icon: Consultoria,
   },
   {
     id: 2,
-    name: "User Interface - UI Development",
+    name: "Planejamento Fiscal",
     description:
-      "Ability to craft visually appealing and user-friendly interfaces using code to enhance user engagement and interaction.",
-    icon: "/icons/service-2.svg",
+      "Desenvolvemos estratégias de planejamento fiscal para minimizar a carga tributária, incluindo a reestruturação de negócios, investimentos e transações internacionais.",
+    icon: Planejamento,
   },
   {
     id: 3,
-    name: "User Experience - UX Development",
+    name: "Litígios Tributários",
     description:
-      "Understanding of user behavior and experience principles applied through coding to create seamless and satisfying user interactions.",
-    icon: "/icons/service-3.svg",
+      "Representamos nossos clientes em disputas com as autoridades fiscais, buscando a melhor solução possível dentro do sistema jurídico brasileiro.",
+    icon: Consultoria,
   },
   {
     id: 4,
-    name: "Responsive Web Development",
+    name: "Auditoria Interna Tributária",
     description:
-      "Capability to develop websites that adapt and function flawlessly across various devices and screen sizes using coding techniques.",
-    icon: "/icons/service-4.svg",
+      "Realizamos auditorias internas para identificar possíveis irregularidades fiscais, garantindo a conformidade contínua com as regulamentações tributárias.",
+    icon: Planejamento,
   },
   {
     id: 5,
-    name: "Prototyping and Development Testing",
+    name: "Consultoria Tributária",
     description:
-      "Ability to code prototypes and conduct thorough testing to visualize and refine website functionalities.",
-    icon: "/icons/service-5.svg",
-  },
-  {
-    id: 6,
-    name: "Mobile-Friendly Coding",
-    description:
-      "Proficiency in coding practices that ensure websites function seamlessly on mobile devices.",
-    icon: "/icons/service-6.svg",
+      "Oferecemos consultoria personalizada para ajudar empresas e indivíduos a entenderem e cumpram suas obrigações fiscais, otimizando impostos pagos e evitando penalidades.",
+    icon: Consultoria,
   },
 ];
 export const benefits = [
