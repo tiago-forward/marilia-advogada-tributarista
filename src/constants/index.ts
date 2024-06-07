@@ -21,8 +21,12 @@ export const navLinks = [
     url: "news",
   },
   {
+    label: "BLOG",
+    url: "blog",
+  },
+  {
     label: "FALE CONOSCO",
-    url: "news",
+    url: "contact",
   },
 ];
 export const services = [
