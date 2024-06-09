@@ -29,3 +29,15 @@ header, section {
     background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
     background-image: radial-gradient(49% 81% at 45% 47%, #60494945 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #010000FF 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #000000FF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #000000FF 0%, #00000000 99%),radial-gradient(142% 91% at 111% 84%, #000000FF 0%, #8E0000FF 100%);
 }
+
+.backgroundGrandientPostRed {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(175deg, #35141494 0%, #000000FF 100%);
+}
+
+.backgroundGrandientPostBlue {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(175deg, #2b2a9f87 0%, #000000FF 100%);
+}
