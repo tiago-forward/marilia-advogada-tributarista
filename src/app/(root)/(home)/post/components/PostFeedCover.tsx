@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 import { CircleChevronRightIcon } from "lucide-react";
-import BackgroundImage from '../../../../../../public/rural.jpg'
-import FotoPerfil from '../../../../../../public/FotoPerfilCapa.jpg'
-import SeloVerificado from '../../../../../../public/verificado.png'
+import BackgroundImage from '../../../../../../public/img-posts/Prédios/artiz.ai_06EED611-DA82-3FFC-1B07-47EA832310B6.jpg'
+import FotoPerfil from '../../../../../../public/img-posts/FotoPerfilCapa.jpg'
+import SeloVerificado from '../../../../../../public/img-posts/verificado.png'
 
 export default function PostFeedMain() {
     return (
@@ -26,7 +26,8 @@ export default function PostFeedMain() {
                 </div>
                 <div className="z-10">
                     <main className="text-3xl font-medium mt-16">
-                        <h1 className="text-slate-200">A Reforma tributária e os seus impactos ao <span className="bg-[#0F39F6] rounded-3xl px-2">produtor rural</span> a partir de 2026</h1>
+                        {/* <h1 className="text-slate-200">A Reforma tributária e os seus impactos ao <span className="bg-[#0F39F6] rounded-3xl px-2">produtor rural</span> a partir de 2026</h1> */}
+                        <h1 className="text-slate-200">A Reforma tributária e os seus impactos ao <span className="bg-[#361717] rounded-3xl px-3">produtor rural</span>a partir de 2026</h1>
                     </main>
                 </div>
                 <div>
@@ -39,7 +40,7 @@ export default function PostFeedMain() {
                     <div className="user-select-none center pointer-events-none absolute -bottom-0 left-1/2 h-px w-full -translate-x-1/2 -translate-y-1/2 transform-gpu [background:linear-gradient(90deg,rgba(0,0,0,0)_0%,rgba(199,160,0.65)_50%,rgba(0,0,0,0)_100%)]"></div>
                 </div>
             </section>
-            <div className="backgroundGrandientPostBlue h-[446px] w-[50px] mt-40 z-10">
+            <div className="backgroundGrandientPostRed h-[446px] w-[50px] mt-40 z-10">
                 <p className="w-[50px]"></p>
             </div>
         </div>

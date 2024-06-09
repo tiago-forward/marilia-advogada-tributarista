@@ -3,7 +3,7 @@ import { CircleChevronRightIcon } from "lucide-react";
 export default function PostFeedMain() {
     return (
         <div className="flex flex-col items-center gap-4 mb-10 max-w-md m-auto">
-            <section className="flex flex-col justify-between relative mt-10 w-[446px] h-[446px] p-10 backgroundGrandientPostBlue">
+            <section className="flex flex-col justify-between relative mt-10 w-[446px] h-[446px] p-10 backgroundGrandientPostRed">
                 <div>
                     {/* <header className="flex flex-col gap-1 w-[350px]">
                         <span className="text-[#0F39F6] text-3xl font-medium">01</span>
@@ -41,8 +41,8 @@ export default function PostFeedMain() {
 
 
 
-                    {/* <header className="flex flex-col gap-1 w-[350px]">
-                        <span className="text-[#0F39F6] text-3xl font-medium">04</span>
+                    <header className="flex flex-col gap-1 w-[350px]">
+                        {/* <span className="text-[#0F39F6] text-3xl font-medium">04</span> */}
                         <span className="text-amber-600 text-3xl font-medium">01</span>
                         <h1 className="text-[14px]">Lucro real: Encargo tributário</h1>
                     </header>
@@ -58,7 +58,7 @@ export default function PostFeedMain() {
                             <li>Mesmo desonerados, esses produtores mantêm créditos de PIS/COFINS;</li>
                             <li>Esses créditos podem ser ressarcidos ou compensados em operações de exportação.</li>
                         </ul>
-                    </main> */}
+                    </main>
 
 
 
