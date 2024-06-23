@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import { socialLinks } from "@/constants"
 
@@ -21,7 +22,7 @@ export const Footer = () => {
                     </nav>
                 </div>
                 <div className="w-full flex justify-center lg:justify-start">
-                    <a href="https://advocaciajf.com/" target="_blank"><img src="https://advocaciajf.com/wp-content/uploads/2024/03/Logotipo-Redesenhada-3.png" alt="Logo da Jonathan Ferrari Advocacia Inteligente" className="w-28" /></a>
+                    <a href="https://advocaciajf.com/" target="_blank"><Image src="https://advocaciajf.com/wp-content/uploads/2024/03/Logotipo-Redesenhada-3.png" width={112} height={50} alt="Logo da Jonathan Ferrari Advocacia Inteligente" /></a>
                 </div>
                 <div className="flex flex-col gap-2">
                     <p className="text-xs text-center">Desenvolvido por <span className="text-blue-700 font-bold"><a href="https://www.linkedin.com/in/tiago-lacerda-devfrontend/" target="_blank" className="hover:underline font-cinzel">TiagoForward</a></span></p>
