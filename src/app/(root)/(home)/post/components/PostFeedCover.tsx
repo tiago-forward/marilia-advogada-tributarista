@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { CircleChevronRightIcon } from "lucide-react";
-import BackgroundImage from '../../../../../../public/img-posts/Prédios/artiz.ai_06EED611-DA82-3FFC-1B07-47EA832310B6.jpg'
+import BackgroundImage from '../../../../../../public/img-posts/Corporativo/artiz.ai_46647A70-6A80-3162-32DE-B0EAC4A6DCE0.jpg'
 import FotoPerfil from '../../../../../../public/img-posts/FotoPerfilCapa.jpg'
 import SeloVerificado from '../../../../../../public/img-posts/verificado.png'
 
@@ -25,9 +25,11 @@ export default function PostFeedMain() {
                     </header>
                 </div>
                 <div className="z-10">
-                    <main className="text-3xl font-medium mt-16">
+                    <main className="text-3xl font-medium mt-6">
                         {/* <h1 className="text-slate-200">A Reforma tributária e os seus impactos ao <span className="bg-[#0F39F6] rounded-3xl px-2">produtor rural</span> a partir de 2026</h1> */}
-                        <h1 className="text-slate-200">A Reforma tributária e os seus impactos ao <span className="bg-[#361717] rounded-3xl px-3">produtor rural</span>a partir de 2026</h1>
+                        <h1 className="text-slate-200 text-2xl mb-20">Como o planejamento tributário pode te ajudar a reduzir a carga tributária e salvar a sua emprasa ?</h1>
+                        {/* className="bg-[#361717] rounded-3xl px-3" */}
+                        {/* <h2 className="text-slate-200 text-sm">Entender isso é o primeiro passo para verificar se a empresa está pagando os impostos corretamente.</h2> */}
                     </main>
                 </div>
                 <div>

@@ -26,7 +26,7 @@ export default function PostFeedFinal() {
                             </div>
                         </header>
                         <div className="mt-4">
-                            <p className="text-slate-200">Quer ver sua empresa <span className="bg-amber-600 rounded-3xl px-1">decolando</span>?</p>
+                            <p className="text-slate-200">Quer ver sua empresa <span className="bg-[#361717] rounded-3xl px-1">decolando</span>?</p>
                             {/* <p className="text-slate-200">Quer ver sua empresa <span className="bg-[#0F39F6] rounded-3xl px-2">decolando</span> ?</p> */}
                             <p>Mande uma mensagem, juntos podemos voar até o sucesso!</p>
                         </div>

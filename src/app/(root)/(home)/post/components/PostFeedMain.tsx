@@ -43,20 +43,22 @@ export default function PostFeedMain() {
 
                     <header className="flex flex-col gap-1 w-[350px]">
                         {/* <span className="text-[#0F39F6] text-3xl font-medium">04</span> */}
-                        <span className="text-amber-600 text-3xl font-medium">01</span>
-                        <h1 className="text-[14px]">Lucro real: Encargo tributário</h1>
+                        <span className="text-amber-600 text-3xl font-medium">02</span>
+                        <h1 className="text-[14px]"></h1>
                     </header>
 
-
+                    <h1 className="text-[14px] mt-2">Postegar o pagamento de imposto:</h1>
                     <main className="w-[350px] text-justify">
                         <ul className="list-disc px-7 mt-1 text-xs flex flex-col gap-2 font-oswald text-slate-300 opacity-70 leading-4">
-                            <li className="list-none">1. Lucro Real e PIS/COFINS:</li>
-                            <li>No Lucro Real, o produtor paga PIS/COFINS. Além disso, há benefícios como depreciação acelerada incentivada e a ausência de travas de prejuízo fiscal (que têm uma limitação de 30%);</li>
-                            <li>No setor agropecuário, não há essa limitação de prejuízo fiscal.</li>
-                            <li className="list-none">2. Não Cumulatividade e Exportação:</li>
-                            <li>Produtores rurais, como exportadores de soja, têm insumos tributados;</li>
-                            <li>Mesmo desonerados, esses produtores mantêm créditos de PIS/COFINS;</li>
-                            <li>Esses créditos podem ser ressarcidos ou compensados em operações de exportação.</li>
+                            <li>De maneira legal o planejamento tributário para ajudar a postegar ou melhorar condições no pagamento de impostos. Essa medida pode ajudar a empresa a reduzir custas com multas ou até mesmo juros de empréstimos e cheques especiais, desde que esteja com o capital de giro baixo.
+                            </li>
+                        </ul>
+                    </main>
+                    <h1 className="text-[14px] mt-5">Aumento da competitividade:                    </h1>
+                    <main className="w-[350px] text-justify">
+                        <ul className="list-disc px-7 mt-1 text-xs flex flex-col gap-2 font-oswald text-slate-300 opacity-70 leading-4">
+                            <li>Impulsiona a empresa a investir; amplica a competitividade nas vendas; produção visibilidade e marketing.
+                            </li>
                         </ul>
                     </main>
 
