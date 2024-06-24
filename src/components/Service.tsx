@@ -3,9 +3,13 @@ import { services } from "@/constants"
 import { SectionTitle } from "./SectionTitle"
 import { ServiceCard } from "./ServiceCard"
 
-export const Service = () => {
+interface ServiceProps {
+    id: string
+}
+
+export const Service = ({ id }: ServiceProps) => {
     return (
-        <section className="w-full flex flex-col items-center justify-center backgroundGrandientService">
+        <section id={id} className="w-full flex flex-col items-center justify-center backgroundGrandientService">
             <div className="max-w-screen-xl m-auto py-10">
                 <SectionTitle>
                     Serviços de Atuação do Direito Tributário

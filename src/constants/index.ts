@@ -6,15 +6,15 @@ import Planejamento from "../../public/img-services/office-scene-close-up.jpg"
 export const navLinks = [
   {
     label: "HOME",
-    url: "/",
+    url: "/#hero",
   },
   {
     label: "SOBRE",
-    url: "/about",
+    url: "/#about",
   },
   {
     label: "SERVIÇOS",
-    url: "/acting",
+    url: "/#service",
   },
   {
     label: "NOTÍCIAS",
@@ -26,7 +26,7 @@ export const navLinks = [
   },
   {
     label: "FALE CONOSCO",
-    url: "contact",
+    url: "/#contact",
   },
 ];
 export const services = [

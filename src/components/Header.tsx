@@ -37,7 +37,9 @@ export const Header = () => {
                 <ul className="flex items-center gap-8">
                     {navLinks.map((link, index) => (
                         <li key={index} className="duration-200 hover:text-amber-600">
-                            <Link href={link.url}>{link.label}</Link>
+                            <Link href={link.url}>
+                                {link.label}
+                            </Link>
                         </li>
                     ))}
                 </ul>

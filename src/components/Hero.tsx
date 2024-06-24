@@ -1,6 +1,10 @@
-export const Hero = () => {
+interface HeroProps {
+    id: string
+}
+
+export const Hero = ({ id }: HeroProps) => {
     return (
-        <section className="relative w-full h-[90vh] flex items-center justify-center border-b border-zinc-900 backgroundImagetHero bg-cover bg-center">
+        <section id={id} className="relative w-full h-[90vh] flex items-center justify-center border-b border-zinc-900 backgroundImagetHero bg-cover bg-center">
             <div className="absolute inset-0 z-0 backgroundGrandientHero"></div>
             <div className="relative z-10 max-w-screen-xl flex flex-col lg:flex-row items-center justify-center text-white">
                 <div className="w-full flex flex-col justify-start text-center lg:text-left">

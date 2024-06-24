@@ -5,9 +5,9 @@ import { Service } from "@/components/Service";
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <About />
-      <Service />
+      <Hero id="hero" />
+      <About id="about" />
+      <Service id="service" />
     </main>
   );
 }

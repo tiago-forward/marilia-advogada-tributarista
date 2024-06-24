@@ -3,9 +3,13 @@ import MaríliaPerfil from '../../public/Marília-Completa.png'
 import Image from 'next/image'
 import { SectionTitle } from './SectionTitle'
 
-export const About = () => {
+interface AboutProps {
+    id: string
+}
+
+export const About = ({ id }: AboutProps) => {
     return (
-        <section className="w-full flex flex-col items-center justify-center  max-w-screen-xl m-auto">
+        <section id={id} className="w-full flex flex-col items-center justify-center  max-w-screen-xl m-auto pt-10">
             <SectionTitle>
                 Sobre mim
             </SectionTitle>
